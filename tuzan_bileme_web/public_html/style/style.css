@@ -1,0 +1,102 @@
+.background {
+    background-color: #eef2f2;
+}
+
+
+.cardhome {
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+    border-radius: 0px;
+    background: #6a9385;
+    box-shadow: 5px 5px 10px #5f8478,
+        -5px -5px 10px #75a292;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 30px;
+
+}
+
+.cardsection {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.cardhome.genis {
+    width: 1200px;
+    background: #c0d4cd;
+}
+
+
+.card-header-bar {
+    background-color: #6a9385;
+    /* image_1.png'deki gibi çok koyu füme/siyah */
+    padding: 15px 0;
+    /* Üst ve alttan boşluk */
+    text-align: center;
+    /* Metni ortala */
+    width: 100%;
+    /* Kartın tam genişliğini kapla */
+}
+
+.card-header-bar h3 {
+    color: #eef2f1;
+    /* Beyaz metin (image_1.png'deki gibi) */
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+    /* Profesyonel sans-serif font */
+    font-size: 18px;
+    /* Okunabilir, abartılı olmayan boyut */
+    font-weight: 600;
+    /* Biraz kalın (semi-bold) */
+    margin: 0;
+    /* Varsayılan boşlukları sıfırla */
+    letter-spacing: 0.5px;
+    /* Harfler arası hafif boşluk okunabilirliği artırır */
+}
+
+.home-container {
+    /*genel bir container stilini burada tanımlayacağım*/
+    max-width: 1130px;
+    width: 100%;
+    /* İçerik 1200px'den fazla yayılmasın */
+    margin: 0 auto;
+    /* Sayfayı ortala */
+
+
+    /* İçerik kenarlara yapışmasın diye */
+
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body>div:first-child {
+    flex-shrink: 0;
+}
+
+.site_footer {
+    flex-shrink: 0;
+}
+
+main.content {
+    flex: 1;
+
+}
+
+.maxgenislik {
+    max-width: 1130px;
+
+}

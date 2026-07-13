@@ -1,0 +1,81 @@
+/*global footer ayarları*/
+.site_footer {
+    width: 100%;
+    background-image: url('../img/footerbackground.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    overflow: hidden;
+
+}
+
+.footer-container {
+    max-width: 1200px;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* 4 bölümü eşit aralıkla dağıtır */
+    gap: 30px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Her bir sütun için genişlik */
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    flex-shrink: 0;
+}
+
+/* Başlık Altındaki  Çizgi */
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 40px;
+    height: 3px;
+    background-color: #c0d4cd;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #6a9385;
+}
+
+
+/* Blog Öğeleri (Resimli olanlar) */
+.blog-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+
+.blog-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* Yuvarlak resimler */
+    object-fit: cover;
+}

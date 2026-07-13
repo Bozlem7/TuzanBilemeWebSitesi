@@ -1,0 +1,199 @@
+/* From Uiverse.io by somshri16 */
+.form {
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    background: #c0d4cd;
+    box-shadow: 5px 5px 10px #c0d4cd, -5px -5px 10px #75a292;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.message {
+    color: #230a0a;
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+}
+
+.flex label {
+    flex: 1;
+}
+
+.form label {
+    position: relative;
+}
+
+.form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid #6a9385;
+    border-radius: 5px;
+}
+
+.form label .input+span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown+span {
+    top: 15px;
+    font-size: 0.9em;
+}
+
+.form label .input:focus+span,
+.form label .input:valid+span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label .input:valid+span {
+    color: green;
+}
+
+.input01 {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid #6a9385;
+    border-radius: 5px;
+}
+
+.form label .input01+span {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    color: #230a0a;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+}
+
+.form label .input01:placeholder-shown+span {
+    top: 40px;
+    font-size: 0.9em;
+}
+
+.form label .input01:focus+span,
+.form label .input01:valid+span {
+    top: 50px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label .input01:valid+span {
+    color: green;
+}
+
+.button {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.button .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transform: translateY(2px);
+    transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+.button .edge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: linear-gradient(to left,
+            #3d6457 0%,
+            #4a7365 8%,
+            #4a7365 92%,
+            #3d6457 100%);
+}
+
+.button .front {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 28px;
+    font-size: 1.25rem;
+    color: #c0d4cd;
+    background: #6a9385;
+    border-radius: 8px;
+    transform: translateY(-4px);
+    transition: transform 600ms cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+.button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.button:hover .front {
+    transform: translateY(-6px);
+    transition: transform 250ms cubic-bezier(0.3, 0.7, 0.4, 1.5);
+}
+
+.button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.button .front span {
+    user-select: none;
+}
+
+.contact-layout {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 50px 30px;
+}
+
+.contact-layout>div {
+    flex: 1;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #eef2f1 0%, #6a9385 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 5rem;
+    font-weight: 800;
+    margin-top: -30px;
+    line-height: 1.1;
+    display: inline-block;
+
+}

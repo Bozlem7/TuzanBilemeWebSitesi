@@ -1,0 +1,68 @@
+/* SADECE ORTA KISIM İÇİN */
+.content-wrapper {
+    flex: 1;
+    /* Header ve Footer'dan kalan tüm alanı kapla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Dikeyde ortalar */
+    align-items: center;
+    /* Yatayda ortalar */
+
+    /* Profesyonel dokunuş: İçeriğin çok yayılmasını önler */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* Sayfa genişse kutuyu ortada tutar */
+    padding: 40px 20px;
+    /* İçerik kenarlara yapışmasın diye */
+}
+
+hr {
+    width: 100%;
+    /* Kapsayıcının tüm genişliğini kapla */
+    border: 0;
+    /* Varsayılan gölgeli çizgiyi sıfırla */
+    border-top: 1px solid #6a9385;
+    /* Profesyonel, temiz bir çizgi oluştur */
+    margin: 10px 0;
+    /* Üstten ve alttan boşluk bırak */
+}
+
+
+
+.cardabout {
+    width: 1130px;
+    height: 275px;
+    padding: 50px;
+    background: #c0d4cd;
+    box-shadow: 5px 5px 10px #c0d4cd, -5px -5px 10px #75a292;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.card-services {
+
+    width: 560px;
+    height: 500px;
+    background: #c0d4cd;
+    box-shadow: 5px 5px 10px #c0d4cd, -5px -5px 10px #75a292;
+    box-sizing: border-box;
+}
+
+.card-services img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-services-container {
+    display: flex;
+    /* Kartları yan yana dizer */
+    flex-direction: row;
+    /* Varsayılan değerdir, yan yana dizilimi garantiler */
+    gap: 10px;
+    /* Kartların arasında 20px boşluk bırakır */
+    justify-content: center;
+    /* Kartları yatayda ortalar */
+}
