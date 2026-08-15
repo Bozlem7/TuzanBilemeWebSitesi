@@ -15,8 +15,15 @@
             </ul>
         </div>
 
+
     </div>
 </footer>
+<script>
+    function toggleDrawer() {
+        document.getElementById('drawer').classList.toggle('acik');
+        document.getElementById('drawerOverlay').classList.toggle('acik');
+    }
+</script>
 </body>
 
 </html>
