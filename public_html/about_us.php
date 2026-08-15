@@ -1,3 +1,4 @@
+<?php $mobil_banner_gizle = true; ?>
 <?php include 'header.php'; ?>
 <main class="content">
     <!-- Kaydırılabilir içerik buraya -->
@@ -5,7 +6,7 @@
         <h2 class="title-font">Hakkımızda</h2>
         <hr>
     </div>
-    <div class="cardabout  content-wrapper   ">
+    <div class="cardabout  yaziortala ">
         <h3 class="text-font">
             2008 yılından bu yana, endüstriyel kesici takımlar ve
             bileme teknolojileri alanında çözüm ortağınız olarak faaliyetlerimizi

@@ -5,3 +5,16 @@ Telefon: 55232500000
 Mesaj: hello
 
 ---
+Tarih: 2026-08-05 17:07:07
+İsim: Betül Ergül
+E-Mail: boozlem55@gmail.com
+Telefon: 05523259005
+Mesaj: gggdg
+---
+Tarih: 2026-08-12 15:10:38
+İsim: Betül Ergül
+E-Mail: boozlem55@gmail.com
+Telefon: 05523259005
+Mesaj: Merhaba siizinle iletişime geçmek istiyorum 
+
+---
