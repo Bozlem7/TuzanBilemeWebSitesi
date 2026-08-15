@@ -1,4 +1,3 @@
-<?php $mobil_banner_gizle = true; ?>
 <?php include 'header.php'; ?>
 <main class="content">
     <div class="content-wrapper">
@@ -6,13 +5,10 @@
         <hr>
     </div>
     <div>
-        <div class="map-section">
-            <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.9536233970275!2d36.416804899999995!3d41.238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4087df002471fbd9%3A0x1180295bf7ce1d9b!2sTuzan%20Bileme!5e1!3m2!1str!2str!4v1786542645695!5m2!1str!2str"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="ortala">
+            <img src="./img/dukkanbackground.svg" alt="dukkan">
         </div>
-        <div class="connact-foto"></div>
+
         <div class="contact-layout">
 
             <div>
@@ -58,7 +54,15 @@
             </div>
         </div>
 
-
+        <div class="map-section">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1728.832681936149!2d36.4156838322636!3d41.23822625465072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4087df7fdaa73813%3A0x55d66b36a8426a5a!2zxLBzdGlrbGFsLCA1Ny4gU2suIE5vOjMyLCA1NTMwMCBUZWtrZWvDtnkvU2Ftc3VuLCBUw7xya2l5ZQ!5e0!3m2!1str!2sus!4v1781269841805!5m2!1str!2sus"
+                width="100%"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
 
 

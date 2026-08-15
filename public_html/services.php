@@ -1,4 +1,3 @@
-<?php $mobil_banner_gizle = true; ?>
 <?php include 'header.php'; ?>
 <main class="content">
     <div class="content-wrapper">

@@ -48,7 +48,6 @@ hr {
     background: #c0d4cd;
     box-shadow: 5px 5px 10px #c0d4cd, -5px -5px 10px #75a292;
     box-sizing: border-box;
-    margin-bottom: 20px;
 }
 
 .card-services img {
@@ -66,37 +65,4 @@ hr {
     /* Kartların arasında 20px boşluk bırakır */
     justify-content: center;
     /* Kartları yatayda ortalar */
-}
-
-.yaziortala {
-    margin: 0 auto;
-    /* İçindeki yazının alt sınıra yapışmaması için iç boşluk ekliyoruz */
-    margin-bottom: 20px;
-}
-
-@media(max-width: 700px) {
-    .cardabout {
-        width: 100%;
-        height: auto;
-        padding: 10px;
-        box-sizing: border-box;
-    }
-
-    .cardabout h3 {
-        font-size: 14px;
-    }
-
-    .card-services-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 12px;
-
-    }
-
-    .card-services {
-        width: 100%;
-        height: 220px;
-
-
-    }
 }
