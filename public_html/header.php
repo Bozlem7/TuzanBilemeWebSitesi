@@ -75,7 +75,7 @@
             </div>
             <div class="icon">
                 <img src="./img/mailicon.svg" alt="mailiconu">
-                <span class="fontcolorlight">info@tuzanbileme.com</span>
+                <span class="fontcolorlight">tuzanbileme@gmail.com</span>
             </div>
         </div>
 
